@@ -1,0 +1,20 @@
+{
+  "name": "codex-title-formatter",
+  "version": "1.0.0",
+  "description": "将 Codex 聊天标题统一为 MM.DD｜项目｜主题，无项目时为 MM.DD｜主题。",
+  "author": { "name": "glcodin-droid" },
+  "repository": "https://github.com/glcodin-droid/codex-plugins",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "聊天标题格式化",
+    "shortDescription": "按日期、项目和主题统一聊天标题",
+    "longDescription": "格式化当前或用户指定的 Codex 聊天标题。使用 MM.DD｜项目｜主题，无项目时使用 MM.DD｜主题。根据实际聊天内容提炼主题，保留有效日期，不臆造项目。支持明确指定范围的批量整理。直接重命名需要当前宿主提供聊天管理工具。",
+    "developerName": "glcodin-droid",
+    "category": "Productivity",
+    "capabilities": ["聊天标题格式化", "指定范围的批量重命名"],
+    "defaultPrompt": ["按规范格式化当前聊天标题", "将指定聊天的标题整理为日期｜项目｜主题，无项目时省略项目"],
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg"
+  }
+}
